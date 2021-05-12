@@ -55,7 +55,7 @@ exclude_patterns = []
 # a list of builtin themes.
 #
 html_theme = 'sphinx_press_theme'
-html_theme_path = 'sphinx_press_theme'
+# html_theme_path = 'sphinx_press_theme'
 html_logo = '_static/docone-logo.png'
 
 # Add any paths that contain custom static files (such as style sheets) here,
