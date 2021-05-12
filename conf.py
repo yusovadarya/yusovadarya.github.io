@@ -54,7 +54,8 @@ exclude_patterns = []
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 #
-html_theme = 'karma_sphinx_theme'
+html_theme = 'press'
+html_theme_path = 'C:\Users\Darya\AppData\Roaming\Python\Python38\site-packages\sphinx_press_theme'
 html_logo = '_static/docone-logo.png'
 
 # Add any paths that contain custom static files (such as style sheets) here,
