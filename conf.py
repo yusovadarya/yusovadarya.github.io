@@ -55,7 +55,7 @@ exclude_patterns = []
 # a list of builtin themes.
 #
 html_theme = 'press'
-html_theme_path = 'C:\Users\Darya\AppData\Roaming\Python\Python38\site-packages\sphinx_press_theme'
+html_theme_path = r'C:\Users\Darya\AppData\Roaming\Python\Python38\site-packages\sphinx_press_theme'
 html_logo = '_static/docone-logo.png'
 
 # Add any paths that contain custom static files (such as style sheets) here,
