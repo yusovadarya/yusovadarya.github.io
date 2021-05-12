@@ -1,0 +1,37 @@
+[OPTIONS]
+Binary TOC=No
+Binary Index=No
+Compiled file=docdoc.chm
+Contents file=docdoc.hhc
+Default Window=docdoc
+Default topic=index.html
+Display compile progress=No
+Full text search stop list file=docdoc.stp
+Full-text search=Yes
+Index file=docdoc.hhk
+Language=0x419
+Title=документация doc 1
+
+[WINDOWS]
+docdoc="документация doc 1","docdoc.hhc","docdoc.hhk","index.html","index.html",,,,,0x63520,220,0x10384e,[0,0,1024,768],,,,,,,0
+
+[FILES]
+authorization.html
+example.html
+genindex.html
+index.html
+registration.html
+_static\2020-09-01_005913.png
+_static\2020-09-01_153550.png
+_static\2020-09-01_160031.png
+_static\autorization.gif
+_static\basic.css
+_static\docone-logo.png
+_static\favicon-256.png
+_static\favicon-32.png
+_static\file.png
+_static\minus.png
+_static\plus.png
+_static\pygments.css
+_static\sphinx_press_theme.css
+_static\theme.css

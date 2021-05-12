@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html  lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+      <title>Регистрация и авторизация в Doc.one</title>
+    
+      <link rel="stylesheet" href="_static/pygments.css">
+      <link rel="stylesheet" href="_static/theme.css">
+      <link rel="stylesheet" href="_static/sphinx_press_theme.css">
+      
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+
+      <!-- sphinx script_files -->
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+        <script src="_static/translations.js"></script>
+
+      
+      <script src="_static/theme-vendors.js"></script>
+      <script src="_static/theme.js" defer></script>
+    
+  <link rel="index" title="Алфавитный указатель" href="genindex.html" />
+  <link rel="search" title="Поиск" href="search.html" />
+  <link rel="next" title="Примеры блоков" href="example.html" />
+  <link rel="prev" title="Авторизация в Doc.one" href="authorization.html" /> 
+  </head>
+
+  <body>
+    <div id="app" class="theme-container" :class="pageClasses"><navbar @toggle-sidebar="toggleSidebar">
+  <router-link to="index.html" class="home-link">
+    
+      <img class="logo" src="_static/docone-logo.png" alt="doit logo"/>
+    
+  </router-link>
+
+  <div class="links">
+    <navlinks class="can-hide">
+
+  
+    <div class="nav-item">
+      <a href="index.html#doc-one"
+         class="nav-link ">
+         Что нового?
+      </a>
+    </div>
+  
+    <div class="nav-item">
+      <a href="index.html#doc-one"
+         class="nav-link ">
+         Документы
+      </a>
+    </div>
+  
+    <div class="nav-item">
+      <a href="index.html#doc-one"
+         class="nav-link ">
+         Шаблоны
+      </a>
+    </div>
+  
+    <div class="nav-item">
+      <a href="index.html#doc-one"
+         class="nav-link  router-link-active">
+         Для разработчиков
+      </a>
+    </div>
+  
+
+
+
+    </navlinks>
+  </div>
+</navbar>
+
+      
+      <div class="sidebar-mask" @click="toggleSidebar(false)">
+      </div>
+        <sidebar @toggle-sidebar="toggleSidebar">
+          
+          <navlinks>
+            
+
+  
+    <div class="nav-item">
+      <a href="index.html#doc-one"
+         class="nav-link ">
+         Что нового?
+      </a>
+    </div>
+  
+    <div class="nav-item">
+      <a href="index.html#doc-one"
+         class="nav-link ">
+         Документы
+      </a>
+    </div>
+  
+    <div class="nav-item">
+      <a href="index.html#doc-one"
+         class="nav-link ">
+         Шаблоны
+      </a>
+    </div>
+  
+    <div class="nav-item">
+      <a href="index.html#doc-one"
+         class="nav-link  router-link-active">
+         Для разработчиков
+      </a>
+    </div>
+  
+
+
+
+            
+          </navlinks><div id="searchbox" class="searchbox" role="search">
+  <div class="caption"><span class="caption-text">Быстрый поиск</span>
+    <div class="searchformwrapper">
+      <form class="search" action="search.html" method="get">
+        <input type="text" name="q" />
+        <input type="submit" value="Поиск" />
+        <input type="hidden" name="check_keywords" value="yes" />
+        <input type="hidden" name="area" value="default" />
+      </form>
+    </div>
+  </div>
+</div><div class="sidebar-links" role="navigation" aria-label="main navigation">
+  
+    <div class="sidebar-group">
+      <p class="caption">
+        <span class="caption-text"><a href="index.html#doc-one">Что нового?</a></span>
+      </p>
+      <ul class="">
+        
+          <li class="toctree-l1 "><a href="new_042021.html" class="reference internal ">Апрель 2021</a>
+
+            
+          </li>
+
+        
+      </ul>
+    </div>
+  
+    <div class="sidebar-group">
+      <p class="caption">
+        <span class="caption-text"><a href="index.html#doc-one">Документы</a></span>
+      </p>
+      <ul class="">
+        
+          <li class="toctree-l1 "><a href="searchdoc.html" class="reference internal ">Найти документ по названию</a>
+
+            
+          </li>
+
+        
+      </ul>
+    </div>
+  
+    <div class="sidebar-group">
+      <p class="caption">
+        <span class="caption-text"><a href="index.html#doc-one">Шаблоны</a></span>
+      </p>
+      <ul class="">
+        
+          <li class="toctree-l1 "><a href="searchtemplate.html" class="reference internal ">Найти шаблон по названию</a>
+
+            
+          </li>
+
+        
+      </ul>
+    </div>
+  
+    <div class="sidebar-group">
+      <p class="caption">
+        <span class="caption-text"><a href="index.html#doc-one">Для разработчиков</a></span>
+      </p>
+      <ul class="current">
+        
+          <li class="toctree-l1 "><a href="authorization.html" class="reference internal ">Авторизация в Doc.one</a>
+
+            
+          </li>
+
+        
+          <li class="toctree-l1 current"><a href="#" class="reference internal current">Регистрация и авторизация в Doc.one</a>
+
+            
+              <ul>
+                
+                  <li class="toctree-l2"><a href="#id1" class="reference internal">Регистрация в Doc.one</a></li>
+                
+                  <li class="toctree-l2"><a href="#id2" class="reference internal">Авторизация в Doc.one</a></li>
+                
+              </ul>
+            
+          </li>
+
+        
+          <li class="toctree-l1 "><a href="example.html" class="reference internal ">Примеры блоков</a>
+
+            
+          </li>
+
+        
+      </ul>
+    </div>
+  
+</div>
+        </sidebar>
+
+      <page>
+          <div class="body-header" role="navigation" aria-label="navigation">
+  
+  <ul class="breadcrumbs">
+    <li><a href="index.html">Docs</a> &raquo;</li>
+    
+    <li>Регистрация и авторизация в Doc.one</li>
+  </ul>
+  
+
+  <ul class="page-nav">
+  <li class="prev">
+    <a href="authorization.html"
+       title="предыдущая глава">← Авторизация в Doc.one</a>
+  </li>
+  <li class="next">
+    <a href="example.html"
+       title="следующая глава">Примеры блоков →</a>
+  </li>
+</ul>
+  
+</div>
+<hr>
+          <div class="content" role="main">
+            
+  <div class="section" id="doc-one">
+<h1>Регистрация и авторизация в Doc.one<a class="headerlink" href="#doc-one" title="Ссылка на этот заголовок">¶</a></h1>
+<div class="section" id="id1">
+<h2>Регистрация в Doc.one<a class="headerlink" href="#id1" title="Ссылка на этот заголовок">¶</a></h2>
+<ol class="arabic simple">
+<li><p>Попросите администратора отправить вам на email приглашение.</p></li>
+<li><p>На вашу электронную почту придет письмо от <a class="reference external" href="mailto:Info&#37;&#52;&#48;doc&#46;one">Info<span>&#64;</span>doc<span>&#46;</span>one</a> с темой <strong>Invite</strong>.</p></li>
+<li><p>Перейдите по ссылке в письме для авторизации.</p></li>
+</ol>
+<div class="figure align-center">
+<img alt="Ссылка на регистрацию" src="_images/2020-09-01_005913.png" />
+</div>
+<ol class="arabic simple" start="4">
+<li><p>Установите пароль для входа в  Doc.one и нажмите кнопку <strong>Отправить ссылку</strong>.</p></li>
+<li><p>Вы автоматически перейдете в главный раздел Doc.one.</p></li>
+</ol>
+</div>
+<div class="section" id="id2">
+<h2>Авторизация в Doc.one<a class="headerlink" href="#id2" title="Ссылка на этот заголовок">¶</a></h2>
+<ol class="arabic simple">
+<li><p>Откройте страницу авторизации в Doc.one. Адрес страницы авторизации можно взять в приглашении — это начало ссылки в письме.</p></li>
+</ol>
+<div class="figure align-center">
+<img alt="Авторизация в Системе" src="_images/2020-09-01_153550.png" />
+</div>
+<ol class="arabic simple" start="2">
+<li><p>Введите логин — email, на который вы получали приглашение, а также пароль, который вы создавали при регистрации.</p></li>
+<li><p>Нажмите кнопку <strong>НАЧАТЬ РАБОТУ</strong>.</p></li>
+<li><p>Вы автоматически перейдете в главный раздел Doc.one.</p></li>
+</ol>
+<div class="figure align-center">
+<img alt="Авторизация в Doc.one" src="_images/autorization.gif" />
+</div>
+<ol class="arabic simple" start="5">
+<li><p>Если в вашей компании настроен централизованный доступ через Microsoft Azure Active Directory, вы можете авторизоваться через MS Azure AD, нажав кнопку AZURE AD на странице входа.</p></li>
+</ol>
+<div class="figure align-center">
+<img alt="Авторизация в Системе" src="_images/2020-09-01_160031.png" />
+</div>
+</div>
+</div>
+
+
+          </div>
+          <div class="page-nav">
+            <div class="inner"><ul class="page-nav">
+  <li class="prev">
+    <a href="authorization.html"
+       title="предыдущая глава">← Авторизация в Doc.one</a>
+  </li>
+  <li class="next">
+    <a href="example.html"
+       title="следующая глава">Примеры блоков →</a>
+  </li>
+</ul><div class="footer" role="contentinfo">
+      &#169; Copyright 2021, Darya.
+    <br>
+    Created using <a href="http://sphinx-doc.org/">Sphinx</a> 3.5.4 with <a href="https://github.com/schettino72/sphinx_press_theme">Press Theme</a>.
+</div>
+            </div>
+          </div>
+      </page>
+    </div>
+    
+    
+  </body>
+</html>

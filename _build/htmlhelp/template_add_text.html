@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html  lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+      <title>Добавление текста в шаблон</title>
+    
+      <link rel="stylesheet" href="_static/pygments.css">
+      <link rel="stylesheet" href="_static/theme.css">
+      <link rel="stylesheet" href="_static/sphinx_press_theme.css">
+      
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+
+      <!-- sphinx script_files -->
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+        <script src="_static/translations.js"></script>
+
+      
+      <script src="_static/theme-vendors.js"></script>
+      <script src="_static/theme.js" defer></script>
+    
+  <link rel="index" title="Алфавитный указатель" href="genindex.html" />
+  <link rel="search" title="Поиск" href="search.html" />
+  <link rel="next" title="Редактирование текста" href="template_editor.html" />
+  <link rel="prev" title="Создать шаблон" href="template_create_template.html" /> 
+  </head>
+
+  <body>
+    <div id="app" class="theme-container" :class="pageClasses"><navbar @toggle-sidebar="toggleSidebar">
+  <router-link to="index.html" class="home-link">
+    
+      <img class="logo" src="_static/docone-logo.png" alt="doit logo"/>
+    
+  </router-link>
+
+  <div class="links">
+    <navlinks class="can-hide">
+
+  
+    <div class="nav-item">
+      <a href="index.html#doc-one"
+         class="nav-link ">
+         Что нового?
+      </a>
+    </div>
+  
+    <div class="nav-item">
+      <a href="index.html#doc-one"
+         class="nav-link ">
+         Документы
+      </a>
+    </div>
+  
+    <div class="nav-item">
+      <a href="index.html#doc-one"
+         class="nav-link  router-link-active">
+         Шаблоны
+      </a>
+    </div>
+  
+    <div class="nav-item">
+      <a href="index.html#doc-one"
+         class="nav-link ">
+         Для разработчиков
+      </a>
+    </div>
+  
+
+
+
+    </navlinks>
+  </div>
+</navbar>
+
+      
+      <div class="sidebar-mask" @click="toggleSidebar(false)">
+      </div>
+        <sidebar @toggle-sidebar="toggleSidebar">
+          
+          <navlinks>
+            
+
+  
+    <div class="nav-item">
+      <a href="index.html#doc-one"
+         class="nav-link ">
+         Что нового?
+      </a>
+    </div>
+  
+    <div class="nav-item">
+      <a href="index.html#doc-one"
+         class="nav-link ">
+         Документы
+      </a>
+    </div>
+  
+    <div class="nav-item">
+      <a href="index.html#doc-one"
+         class="nav-link  router-link-active">
+         Шаблоны
+      </a>
+    </div>
+  
+    <div class="nav-item">
+      <a href="index.html#doc-one"
+         class="nav-link ">
+         Для разработчиков
+      </a>
+    </div>
+  
+
+
+
+            
+          </navlinks><div id="searchbox" class="searchbox" role="search">
+  <div class="caption"><span class="caption-text">Быстрый поиск</span>
+    <div class="searchformwrapper">
+      <form class="search" action="search.html" method="get">
+        <input type="text" name="q" />
+        <input type="submit" value="Поиск" />
+        <input type="hidden" name="check_keywords" value="yes" />
+        <input type="hidden" name="area" value="default" />
+      </form>
+    </div>
+  </div>
+</div><div class="sidebar-links" role="navigation" aria-label="main navigation">
+  
+    <div class="sidebar-group">
+      <p class="caption">
+        <span class="caption-text"><a href="index.html#doc-one">Что нового?</a></span>
+      </p>
+      <ul class="">
+        
+          <li class="toctree-l1 "><a href="new_042021.html" class="reference internal ">Апрель 2021</a>
+
+            
+          </li>
+
+        
+      </ul>
+    </div>
+  
+    <div class="sidebar-group">
+      <p class="caption">
+        <span class="caption-text"><a href="index.html#doc-one">Документы</a></span>
+      </p>
+      <ul class="">
+        
+          <li class="toctree-l1 "><a href="doc_searchdoc.html" class="reference internal ">Найти документ по названию</a>
+
+            
+          </li>
+
+        
+          <li class="toctree-l1 "><a href="doc_doc_folder.html" class="reference internal ">Папки документов</a>
+
+            
+          </li>
+
+        
+          <li class="toctree-l1 "><a href="doc_create_doc.html" class="reference internal ">Создать документ</a>
+
+            
+          </li>
+
+        
+      </ul>
+    </div>
+  
+    <div class="sidebar-group">
+      <p class="caption">
+        <span class="caption-text"><a href="index.html#doc-one">Шаблоны</a></span>
+      </p>
+      <ul class="current">
+        
+          <li class="toctree-l1 "><a href="template_searchtemplate.html" class="reference internal ">Найти шаблон по названию</a>
+
+            
+          </li>
+
+        
+          <li class="toctree-l1 "><a href="template_templ_folder.html" class="reference internal ">Папки шаблонов</a>
+
+            
+          </li>
+
+        
+          <li class="toctree-l1 "><a href="template_create_template.html" class="reference internal ">Создать шаблон</a>
+
+            
+          </li>
+
+        
+          <li class="toctree-l1 current"><a href="#" class="reference internal current">Добавление текста в шаблон</a>
+
+            
+              <ul>
+                
+                  <li class="toctree-l2"><a href="#id1" class="reference internal">Добавление текста в шаблон</a></li>
+                
+              </ul>
+            
+          </li>
+
+        
+          <li class="toctree-l1 "><a href="template_editor.html" class="reference internal ">Редактирование текста</a>
+
+            
+          </li>
+
+        
+      </ul>
+    </div>
+  
+    <div class="sidebar-group">
+      <p class="caption">
+        <span class="caption-text"><a href="index.html#doc-one">Для разработчиков</a></span>
+      </p>
+      <ul class="">
+        
+          <li class="toctree-l1 "><a href="authorization.html" class="reference internal ">Авторизация в Doc.one</a>
+
+            
+          </li>
+
+        
+          <li class="toctree-l1 "><a href="registration.html" class="reference internal ">Регистрация и авторизация в Doc.one</a>
+
+            
+          </li>
+
+        
+          <li class="toctree-l1 "><a href="example.html" class="reference internal ">Примеры блоков</a>
+
+            
+          </li>
+
+        
+      </ul>
+    </div>
+  
+</div>
+        </sidebar>
+
+      <page>
+          <div class="body-header" role="navigation" aria-label="navigation">
+  
+  <ul class="breadcrumbs">
+    <li><a href="index.html">Docs</a> &raquo;</li>
+    
+    <li>Добавление текста в шаблон</li>
+  </ul>
+  
+
+  <ul class="page-nav">
+  <li class="prev">
+    <a href="template_create_template.html"
+       title="предыдущая глава">← Создать шаблон</a>
+  </li>
+  <li class="next">
+    <a href="template_editor.html"
+       title="следующая глава">Редактирование текста →</a>
+  </li>
+</ul>
+  
+</div>
+<hr>
+          <div class="content" role="main">
+            
+  <div class="section" id="id1">
+<h1>Добавление текста в шаблон<a class="headerlink" href="#id1" title="Ссылка на этот заголовок">¶</a></h1>
+</div>
+
+
+          </div>
+          <div class="page-nav">
+            <div class="inner"><ul class="page-nav">
+  <li class="prev">
+    <a href="template_create_template.html"
+       title="предыдущая глава">← Создать шаблон</a>
+  </li>
+  <li class="next">
+    <a href="template_editor.html"
+       title="следующая глава">Редактирование текста →</a>
+  </li>
+</ul><div class="footer" role="contentinfo">
+      &#169; Copyright 2021, Darya.
+    <br>
+    Created using <a href="http://sphinx-doc.org/">Sphinx</a> 3.5.4 with <a href="https://github.com/schettino72/sphinx_press_theme">Press Theme</a>.
+</div>
+            </div>
+          </div>
+      </page>
+    </div>
+    
+    
+  </body>
+</html>

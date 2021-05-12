@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html  lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+      <title>Создать документ</title>
+    
+      <link rel="stylesheet" href="_static/pygments.css">
+      <link rel="stylesheet" href="_static/theme.css">
+      <link rel="stylesheet" href="_static/sphinx_press_theme.css">
+      
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+
+      <!-- sphinx script_files -->
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+        <script src="_static/translations.js"></script>
+
+      
+      <script src="_static/theme-vendors.js"></script>
+      <script src="_static/theme.js" defer></script>
+    
+  <link rel="index" title="Алфавитный указатель" href="genindex.html" />
+  <link rel="search" title="Поиск" href="search.html" />
+  <link rel="next" title="Авторизация в Doc.one" href="authorization.html" />
+  <link rel="prev" title="Папки документов" href="doc_folder.html" /> 
+  </head>
+
+  <body>
+    <div id="app" class="theme-container" :class="pageClasses"><navbar @toggle-sidebar="toggleSidebar">
+  <router-link to="index.html" class="home-link">
+    
+      <img class="logo" src="_static/docone-logo.png" alt="doit logo"/>
+    
+  </router-link>
+
+  <div class="links">
+    <navlinks class="can-hide">
+
+  
+    <div class="nav-item">
+      <a href="index.html#doc-one"
+         class="nav-link ">
+         Что нового?
+      </a>
+    </div>
+  
+    <div class="nav-item">
+      <a href="index.html#doc-one"
+         class="nav-link  router-link-active">
+         Документы
+      </a>
+    </div>
+  
+    <div class="nav-item">
+      <a href="index.html#doc-one"
+         class="nav-link ">
+         Для разработчиков
+      </a>
+    </div>
+  
+
+
+
+    </navlinks>
+  </div>
+</navbar>
+
+      
+      <div class="sidebar-mask" @click="toggleSidebar(false)">
+      </div>
+        <sidebar @toggle-sidebar="toggleSidebar">
+          
+          <navlinks>
+            
+
+  
+    <div class="nav-item">
+      <a href="index.html#doc-one"
+         class="nav-link ">
+         Что нового?
+      </a>
+    </div>
+  
+    <div class="nav-item">
+      <a href="index.html#doc-one"
+         class="nav-link  router-link-active">
+         Документы
+      </a>
+    </div>
+  
+    <div class="nav-item">
+      <a href="index.html#doc-one"
+         class="nav-link ">
+         Для разработчиков
+      </a>
+    </div>
+  
+
+
+
+            
+          </navlinks><div id="searchbox" class="searchbox" role="search">
+  <div class="caption"><span class="caption-text">Быстрый поиск</span>
+    <div class="searchformwrapper">
+      <form class="search" action="search.html" method="get">
+        <input type="text" name="q" />
+        <input type="submit" value="Поиск" />
+        <input type="hidden" name="check_keywords" value="yes" />
+        <input type="hidden" name="area" value="default" />
+      </form>
+    </div>
+  </div>
+</div><div class="sidebar-links" role="navigation" aria-label="main navigation">
+  
+    <div class="sidebar-group">
+      <p class="caption">
+        <span class="caption-text"><a href="index.html#doc-one">Что нового?</a></span>
+      </p>
+      <ul class="">
+        
+          <li class="toctree-l1 "><a href="new_042021.html" class="reference internal ">Апрель 2021</a>
+
+            
+          </li>
+
+        
+      </ul>
+    </div>
+  
+    <div class="sidebar-group">
+      <p class="caption">
+        <span class="caption-text"><a href="index.html#doc-one">Документы</a></span>
+      </p>
+      <ul class="current">
+        
+          <li class="toctree-l1 "><a href="searchdoc.html" class="reference internal ">Найти документ по названию</a>
+
+            
+          </li>
+
+        
+          <li class="toctree-l1 "><a href="doc_folder.html" class="reference internal ">Папки документов</a>
+
+            
+          </li>
+
+        
+          <li class="toctree-l1 current"><a href="#" class="reference internal current">Создать документ</a>
+
+            
+              <ul>
+                
+                  <li class="toctree-l2"><a href="#id1" class="reference internal">Создать документ</a></li>
+                
+              </ul>
+            
+          </li>
+
+        
+          <li class="toctree-l1 "><a href="authorization.html" class="reference internal ">Авторизация в Doc.one</a>
+
+            
+          </li>
+
+        
+          <li class="toctree-l1 "><a href="registration.html" class="reference internal ">Регистрация и авторизация в Doc.one</a>
+
+            
+          </li>
+
+        
+      </ul>
+    </div>
+  
+    <div class="sidebar-group">
+      <p class="caption">
+        <span class="caption-text"><a href="index.html#doc-one">Для разработчиков</a></span>
+      </p>
+      <ul class="">
+        
+          <li class="toctree-l1 "><a href="authorization.html" class="reference internal ">Авторизация в Doc.one</a>
+
+            
+          </li>
+
+        
+          <li class="toctree-l1 "><a href="registration.html" class="reference internal ">Регистрация и авторизация в Doc.one</a>
+
+            
+          </li>
+
+        
+          <li class="toctree-l1 "><a href="example.html" class="reference internal ">Примеры блоков</a>
+
+            
+          </li>
+
+        
+      </ul>
+    </div>
+  
+</div>
+        </sidebar>
+
+      <page>
+          <div class="body-header" role="navigation" aria-label="navigation">
+  
+  <ul class="breadcrumbs">
+    <li><a href="index.html">Docs</a> &raquo;</li>
+    
+    <li>Создать документ</li>
+  </ul>
+  
+
+  <ul class="page-nav">
+  <li class="prev">
+    <a href="doc_folder.html"
+       title="предыдущая глава">← Папки документов</a>
+  </li>
+  <li class="next">
+    <a href="authorization.html"
+       title="следующая глава">Авторизация в Doc.one →</a>
+  </li>
+</ul>
+  
+</div>
+<hr>
+          <div class="content" role="main">
+            
+  <div class="section" id="id1">
+<h1>Создать документ<a class="headerlink" href="#id1" title="Ссылка на этот заголовок">¶</a></h1>
+<ol class="arabic simple">
+<li><p>Откройте раздел <strong>Документы</strong>.</p></li>
+<li><p>Нажмите кнопку <img alt="Создать" src="_images/2020-08-28_164135.jpg" /> в правом нижнем углу и выберите пункт <strong>Документ</strong>.</p></li>
+</ol>
+<ol class="arabic simple" start="3">
+<li><p>В открывшемся окне в поле <strong>Поиск</strong> начните вводить название шаблона, на основе которого нужно создать документ.</p></li>
+<li><p>В списке останутся только те шаблоны, которые содержат введенные символы. Выберите шаблон в списке.</p></li>
+<li><p>Откроется страница работы с документом. Для формирования документа ответьте на вопросы на боковой панели. Конструктор на основе ответов автоматически сформирует текст документа.</p></li>
+<li><p>Заполните поля в документе. Для этого перейдите на вкладку <strong>Поля</strong> боковой панели и заполните список полей.</p></li>
+</ol>
+<div class="figure align-center">
+<img alt="Создание документа" src="_images/create_doc.gif" />
+</div>
+<p>Документ будет сохранен в разделе <strong>Документы</strong> со всеми заполненными данными.</p>
+<p>Ячейки, отмеченные красным шрифтом, являются обязательными для заполнения. Если указанные поля не будут заполнены, Doc.one не позволит скачать получившийся документ.</p>
+<div class="figure align-center">
+<img alt="Обязательные поля документа" src="_images/2020-09-04_164850.png" />
+</div>
+<p>Doc.one запоминает все значения, которые вы вводите. Когда вы будете составлять документ по этому же шаблону во второй раз, для удобства ввода Doc.one предложит введенные ранее значения.</p>
+<div class="figure align-center">
+<img alt="Выбор значения из ранее введенных" src="_images/2020-09-04_165044.png" />
+</div>
+<div class="admonition attention">
+<p class="admonition-title">Внимание</p>
+<p>Название документа зависит от настроек, заданных в шаблоне. Подробнее см. Почему документ так называется.</p>
+</div>
+</div>
+
+
+          </div>
+          <div class="page-nav">
+            <div class="inner"><ul class="page-nav">
+  <li class="prev">
+    <a href="doc_folder.html"
+       title="предыдущая глава">← Папки документов</a>
+  </li>
+  <li class="next">
+    <a href="authorization.html"
+       title="следующая глава">Авторизация в Doc.one →</a>
+  </li>
+</ul><div class="footer" role="contentinfo">
+      &#169; Copyright 2021, Darya.
+    <br>
+    Created using <a href="http://sphinx-doc.org/">Sphinx</a> 3.5.4 with <a href="https://github.com/schettino72/sphinx_press_theme">Press Theme</a>.
+</div>
+            </div>
+          </div>
+      </page>
+    </div>
+    
+    
+  </body>
+</html>
